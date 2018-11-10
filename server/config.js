@@ -2,7 +2,7 @@ var ConfigObject = function() {
 	var self = this;
 	
 	this.baseResource = '/resources/';
-	this.GameModeDir = '[cts]/'; // set to '' to ignore 
+	this.GameModeDir = ''; // set to '' to ignore 
 	this.debug = true;
 	
 	this.path = require('path');
